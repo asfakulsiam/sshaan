@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1320px) {
+    #logotext2{
+        display: none;
+    }
+    .banner{
+        height: 630px;
+    }
+}
+
+@media only screen and (max-width: 1140px) {
+    #logotext2{
+        display: none;
+    }
+    .banner{
+        height: 543px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    #logotext2{
+        display: none;
+    }
+    .banner{
+        height: 458px;
+    }
+
+}
+    @media only screen and (max-width: 720px) {
+        #logotext2{
+            display: none;
+        }
+        .banner{
+            height: 344px;
+        }
+}
+@media only screen and (max-width: 540px) {
+
+/* navbar */
+
+.navmiddle{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 200px;
+        height: 60vh;
+        background: white;
+        border-radius: 10px;
+        display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+        transition: all .50s ease;
+        margin-top: 5px;
+        box-shadow: 0 5px 10px  rgba(128, 128, 128, 0.533);
+    }
+    .navmiddle a{
+        display: block;
+		margin: 12px 0;
+		padding: 0px 25px;
+		transition: all .50s ease;
+    }
+    .navmiddle.open{
+		right: 2%;
+	}
+     .navright{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        display: flex;
+        transition: all .50s ease;
+        margin: 55vh 36px 0 0;
+    }
+    .navright a{
+        display: block;
+		transition: all .50s ease;
+        margin: 0 5px;
+        z-index: 10002;
+    }
+    #menu-icon{
+		display: block;
+	}
+    .navright.open2{
+		right: 2%;
+	}
+    #logotext1{
+        display: none !important;
+    }
+    #logotext2{
+        display: inline-block !important;
+    }
+
+
+    /* banner */
+    .banner{
+        height: 100vh;
+        background: url(./../image/backgroundImage/jf.jpg) no-repeat center top;
+        background-size: full;
+    }
+
+    .banner p{
+        position: absolute;
+        top: 76%;
+        left: 18px;
+        font-size: 22px;
+    }
+    .banner h2{
+        position: absolute;
+        top: 80%;
+        left: 18px;
+        font-size: 33px;
+    }
+    
+    .banner a{
+        position: absolute;
+        top: 86%;
+        left: 18px;
+        width: 43%;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 0;
+        font-size: 15px;
+      }
+
+
+
+}
+  

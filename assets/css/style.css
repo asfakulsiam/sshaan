@@ -1,0 +1,133 @@
+/* custom font */
+@import url("../css/fonts/font.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* main style start from here */
+
+
+
+/* navbar */
+header{
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 1000;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft{
+    margin-left: 15px;
+}
+
+#logotext1{
+    font-family: Josefin;
+    font-size: 33px;
+    font-family: Josefin;
+    font-weight: 700px;
+    color: black;
+    display: inline-block;
+    transition: ease-in-out .2s 
+}
+
+#logotext2{
+    font-family: Urban;
+    font-size: 25px;
+    font-weight: 700px;
+    color: rgba(7, 7, 7, 0.823);
+    transition: ease-in-out .2s ;
+    display: none !important;
+}
+#logotext:hover{
+    transform: scale(1.02);
+}
+
+
+.navmiddle a{
+    margin: 0 10px;
+    font-family: Josefin;
+    color: black;
+    display: inline-block;
+    transition: ease-in-out .2s ;
+}
+.navmiddle a:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.navright a{
+    padding: 2px;
+    font-size: 16px;
+    color: rgba(15, 1, 1, 0.827);
+    display: inline-block;
+    transition: ease-in-out .2s ;
+}
+.navright{
+    margin-right: 15px;
+}
+.navright a:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+#menu-icon{
+  font-size: 26px;
+  cursor: pointer;
+  transition: ease-in-out .2s ;
+  z-index: 10001;
+  display: none;
+  margin-right: 15px;
+}
+
+#menu-icon:hover{
+    transform: scale(1.2);
+}
+
+/* navbar */
+
+
+/* banner */
+.banner{
+    height: 730px;
+    background: url(./../image/backgroundImage/Background-image.png) no-repeat center top;
+    background-size: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    font-family: Abel;
+    display: inline-block;
+}
+.banner h2{
+    font-family: Anton;
+    display: inline-block;
+}
+
+.banner a{
+    font-family: Abel;
+    width: 8%;
+    height: 40px;
+    background: linear-gradient(45deg, rgb(113, 130, 205), rgb(118, 225, 65));
+    line-height: 35px;
+    display: inline-block;
+    border-radius: 40px;
+    transition: ease-in-out .1s ;
+
+}
+.banner a:hover{
+    transform: scale(1.02);
+    font-weight: 800px;
+    background: linear-gradient(45deg, rgb(171, 56, 184), rgb(133, 130, 27));
+}
+
+/* x banner x */
